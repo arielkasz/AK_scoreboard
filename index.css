@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    
+}
+
+@font-face {
+    src: url("/CursedTimerUlil-Aznm.ttf");
+    font-family: cursedTimer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: cursedTimer;
+    color: #ffcffc;
+    background: #2d077d;
+    padding: 16px 8px;
+    width: 575px;
+    height: 385px;
+    
+}
+
+.competitor{
+    font-family: "Black Ops One", system-ui;
+    text-shadow: 0px 5px 3px #ff5ed4;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+    margin-bottom: 21px;
+    
+}
+
+.score{
+    background: #000000;
+    text-shadow: 0px 5px 5px #00fff7;
+    width: 120px;
+    margin: 21px auto 26px auto;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+    font-weight: 400;
+    font-size: 90px;
+    color: #ff5ed4;
+    border-radius: 5px;
+
+    
+}
+.add{
+    border: 2px solid #00fff7;
+    text-shadow: 0px 5px 5px #2d077d;
+    width: 125px;
+    padding: 10px 0px;
+    margin: 5px;
+    color: #00fff7;
+    background: #ff5ed4;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: "Black Ops One", system-ui;
+}
+
+.add:hover{
+    background: #ffcffc;
+    padding: 5px;
+}
+
