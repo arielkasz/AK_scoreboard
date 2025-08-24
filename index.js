@@ -7,6 +7,7 @@ let score = 0
 function victoryHome(){
     score += 1
     scoreHome.textContent = score
+    console.log(score)
 }
 
 function defeatHome(){
